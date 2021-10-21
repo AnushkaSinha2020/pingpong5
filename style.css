@@ -1,0 +1,54 @@
+body
+{
+background-position: center;
+background-size: cover;
+}
+
+.heading{
+    width:100%;
+    text-align: left;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float:right;
+    border: 1px solid white;
+}
+#start_button, #status, #restart_button {
+    font-size: 25px;
+}
+
+h4{
+    background-color: white;
+    line-height: 2;
+    margin: 0px;
+}
+
+.modal-dialog{
+    width:90%;
+}
+
+.instruction{
+    display: inline-block;
+    width: 45%;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    box-shadow: 10px 10px 10px whitesmoke;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding:10px;
+}
